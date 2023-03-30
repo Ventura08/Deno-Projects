@@ -1,0 +1,26 @@
+{
+    "fmt": {
+        "files": {
+          "include": ["src/"],
+          "exclude": ["src/testdata/"]
+        },
+        "options": {
+          // "useTabs": true,
+          "lineWidth": 100,
+          "indentWidth": 4,
+          "singleQuote": true,
+          "proseWrap": "preserve"
+        }
+      },
+      "lint": {
+        "files": {
+          "include": ["src/"],
+          "exclude": ["src/testdata/"]
+        },
+        "rules": {
+          "tags": ["recommended"],
+          "include": ["ban-untagged-todo"],
+          "exclude": ["no-unused-vars"]
+        }
+      }
+}
